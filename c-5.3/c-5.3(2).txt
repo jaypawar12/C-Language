@@ -1,0 +1,83 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("Press 1 for English\nPress 2 for Hindi\nPress 3 for Gujarati\n");
+    printf("Enter the number : ");
+    scanf("%d",&a);
+    
+    switch(a)
+    {
+        case 1:
+        printf("Press 1 for Internet Recharge \n Press 2 for Top-up Recharge\n Press 3 for Special Recharge\n");
+        printf("Enter the number : ");
+        scanf("%d",&b);
+        switch(b)
+        {
+            case 1:
+            printf("You have successfully done a internet Recharge.\n");
+            break;
+            case 2:
+            printf("You have successfully done a Top-up Recharge.\n");
+            break ;
+            case 3:
+            printf("You have successfully done a special Recharge.\n");
+            break;
+            default:
+            printf("invaild number!!!\n");
+            break;
+        }
+        
+        break;
+        case 2:
+        printf("Press 1 for Internet Recharge \nPress 2 for Top-up Recharge\nPress 3 for Special Recharge\n");
+        printf("Enter the number : ");
+        scanf("%d",&b);
+        switch(b)
+        {
+            case 1:
+            printf("Internet Recharge ke liye 1 dabaiye\n");
+            break;
+            case 2:
+            printf("Top-up Recharge ke liye 2 dabaiye\n");
+            break ;
+            case 3:
+            printf("Special Recharge ke liye 3 dabaiye\n");
+            break;
+            default:
+            printf("invaild number!!!\n");
+            break;
+        }
+        
+        break;
+        case 3:
+        printf("Internet Recharge mate 1 dabavo \nTop-up Recharge mate 2 dabavo\nSpecial Recharge mate 3 dabavo\n");
+        printf("Enter the number : ");
+        scanf("%d",&b);
+        switch(b)
+        {
+            case 1:
+            printf("Tame safaltapurvak internet Recharge karyu chhe.\n");
+            break;
+            case 2:
+            printf("Tame safaltapurvak Top-up Recharge karyu chhe.\n");
+            break ;
+            case 3:
+            printf("Tame safaltapurvak Special Recharge karyu chhe.\n");
+            break;
+            default:
+            printf("invaild number!!!\n");
+            break;
+        }
+        
+        break;
+        default:
+        printf("invaild number!!!\n");
+        
+    }
+    
+    
+
+    return 0;
+}

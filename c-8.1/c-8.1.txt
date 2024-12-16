@@ -1,0 +1,115 @@
+1.
+
+
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   
+  printf("Enter the no. of array that you want  :");
+  scanf("%d",&n);
+  
+  int a[n];
+  
+  for(int length=0;length<n;length++)
+  {
+      printf("a[%d] = ",length);
+      scanf("%d",&a[length]);
+      
+  }
+      printf("The length of the array is  :%d ",n);
+  
+    return 0;
+}
+
+--------------------------------------------------------------------------------------------------
+
+2.
+
+
+
+#include <stdio.h>
+
+int main()
+{
+  int n;
+  float average,sum=0;
+   
+  printf("Enter the no. of array that you want :");
+  scanf("%d",&n);
+  
+  int a[n];
+  
+  for(int length=0;length<n;length++)
+  {
+      printf("a[%d] = ",length);
+      scanf("%d",&a[length]);
+      
+  }
+     for(int length=0;length<n;length++)
+  {
+      sum+=a[length];
+  }
+     printf("\nThe sum of the elements AIS :%.2f\n",sum);
+     
+     average = sum/n;
+  
+     printf("\nThe average of all the elements are :%.2f",average);
+     
+    return 0;
+}
+
+
+----------------------------------------------------------------------------------------------------
+
+3.
+
+
+
+#include <stdio.h>
+
+int main()
+{
+   int n;
+   float sum=0;
+   
+  printf("Enter the no. of array that you want :");
+  scanf("%d",&n);
+  
+  int a[n],b[n],c[n];
+  
+  for(int length=0;length<n;length++)
+  {
+      printf("a[%d] = ",length);
+      scanf("%d",&a[length]);
+      
+  }
+  
+  for(int length=0;length<n;length++)
+  {
+      printf("b[%d] = ",length);
+      scanf("%d",&b[length]);
+      
+  }
+      printf("\nHe sum of all the elements of a and b are :\n");
+      
+     for(int length=0;length<n;length++)
+  {
+      c[length] = a[length] + b[length];
+      printf("%d\t",c[length]);
+  }
+     
+    return 0;
+}
+
+-----------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
